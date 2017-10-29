@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+            <TextView
+                android:padding="@dimen/widget_padding"
+                android:id="@+id/widget_stackview_recipe_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recipe"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/widget_stackView_recipe_ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingredients_stackview"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textStyle="italic"
+                android:padding="@dimen/widget_padding"
+                android:layout_margin="@dimen/widget_margin"
+                android:textColor="@android:color/white"/>
+
+</LinearLayout>

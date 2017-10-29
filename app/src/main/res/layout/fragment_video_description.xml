@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+            android:id="@+id/view_video_step"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <ImageView
+            android:id="@+id/iv_thumbnail_description_step"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:layout_marginStart="@dimen/dimen_8dp"
+            android:layout_marginEnd="@dimen/dimen_8dp"
+            android:layout_marginRight="@dimen/dimen_8dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_title_description_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="@string/summary"
+            />
+
+        <TextView
+            android:id="@+id/tv_description_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Description of the step "
+            android:textStyle="italic"
+            android:layout_margin="8dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
